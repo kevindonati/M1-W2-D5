@@ -1,7 +1,34 @@
+/* GENERALI */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(224, 224, 223);
 }
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #eaeded;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: rgb(5, 97, 116);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mar-top {
+  margin-top: 2em;
+}
+
+/* HEADER */
 
 header div {
   background-color: #222f3e;
@@ -23,21 +50,22 @@ header nav a {
   font-weight: 400;
 }
 
+/* MAIN */
+
 main {
   padding: 2em;
 }
+
 #bg-orange {
   background-color: #f56600;
   padding: 0.5em 0;
 }
 
-.text-align {
-  text-align: center;
-}
-
 main div p {
   color: #eaeded;
 }
+
+/* SECONDO BLOCCO */
 
 #secondo-blocco {
   padding-top: 2em;
@@ -50,7 +78,6 @@ main div p {
 
 #testi {
   position: absolute;
-  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -67,9 +94,10 @@ main div p {
   height: 200px;
 }
 
+/* TERZO BLOCCO */
+
 #terzo-blocco {
   background-color: white;
-  margin-top: 2em;
 }
 
 #testi-terzo-blocco {
@@ -85,10 +113,6 @@ main div p {
   padding-left: 1em;
 }
 
-#immagini {
-  text-align: center;
-}
-
 #immagini img {
   height: 450px;
   width: 22%;
@@ -98,16 +122,10 @@ main div p {
   box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.446);
 }
 
-#quarto-blocco {
-  margin-top: 2em;
-}
+/* QUARTO BLOCCO */
 
 #quarto-blocco img {
   width: 100%;
-}
-
-#testi-quarto-blocco {
-  text-align: center;
 }
 
 #testi-quarto-blocco h2 {
@@ -115,16 +133,10 @@ main div p {
   padding-right: 1em;
 }
 
-#quinto-blocco {
-  margin-top: 2em;
-}
+/* QUINTO BLOCCO */
 
 #quinto-blocco img {
   width: 100%;
-}
-
-#testi-quinto-blocco {
-  text-align: center;
 }
 
 #testi-quinto-blocco h2 {
@@ -132,9 +144,10 @@ main div p {
   padding-right: 1em;
 }
 
+/* FOOTER */
+
 #back-top {
   background-color: #32465c;
-  text-align: center;
   padding: 1em;
 }
 
@@ -145,7 +158,6 @@ main div p {
 
 #logo-footer {
   background-color: #222f3e;
-  text-align: center;
 }
 
 #logo-footer img {
