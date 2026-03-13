@@ -1,0 +1,15 @@
+h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #eaeded;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: rgb(5, 97, 116);
+}

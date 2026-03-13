@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(224, 224, 223);
+}
+
+header div {
+  background-color: #222f3e;
+}
+
+header div img {
+  padding: 0.7em 2em;
+  height: 50px;
+}
+
+header nav {
+  background-color: #32465c;
+  padding: 0.5em 0;
+}
+
+header nav a {
+  color: #eaeded;
+  padding-left: 2em;
+  font-weight: 400;
+}
+
+main {
+  padding: 2em;
+}
+#bg-orange {
+  background-color: #f56600;
+  padding: 0.5em 0;
+}
+
+.text-align {
+  text-align: center;
+}
+
+main div p {
+  color: #eaeded;
+}
+
+#secondo-blocco {
+  padding-top: 2em;
+}
+
+#secondo-blocco h2 {
+  font-weight: 600;
+  color: #eaeded;
+}
+
+#testi {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#testi h2 {
+  margin-top: 1em;
+}
+
+#bg-hgg {
+  position: relative;
+  background-image: url("../images/bg-image.png");
+  background-position: top center;
+  height: 200px;
+}
+
+#terzo-blocco {
+  background-color: white;
+  margin-top: 2em;
+}
+
+#testi-terzo-blocco {
+  padding-top: 1em;
+}
+
+#testi-terzo-blocco h2 {
+  display: inline-block;
+  padding-left: 1em;
+}
+
+#testi-terzo-blocco a {
+  padding-left: 1em;
+}
+
+#immagini {
+  text-align: center;
+}
+
+#immagini img {
+  height: 450px;
+  width: 22%;
+  object-fit: cover;
+  border-radius: 2em;
+  margin: 1em;
+  box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.446);
+}
+
+#quarto-blocco {
+  margin-top: 2em;
+}
+
+#quarto-blocco img {
+  width: 100%;
+}
+
+#testi-quarto-blocco {
+  text-align: center;
+}
+
+#testi-quarto-blocco h2 {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+#quinto-blocco {
+  margin-top: 2em;
+}
+
+#quinto-blocco img {
+  width: 100%;
+}
+
+#testi-quinto-blocco {
+  text-align: center;
+}
+
+#testi-quinto-blocco h2 {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+#back-top {
+  background-color: #32465c;
+  text-align: center;
+  padding: 1em;
+}
+
+#back-top a {
+  text-decoration: underline;
+  color: #eaeded;
+}
+
+#logo-footer {
+  background-color: #222f3e;
+  text-align: center;
+}
+
+#logo-footer img {
+  width: 200px;
+  padding: 4em 0;
+}
